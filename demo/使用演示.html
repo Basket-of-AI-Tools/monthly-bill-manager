@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>月费账单管理器｜新手操作演示</title>
+  <style>
+    :root { color-scheme: light; font-family: "Microsoft YaHei UI", "Segoe UI", sans-serif; color: #0f172a; background: #f1f5f9; }
+    body { margin: 0; } header { padding: 34px max(22px, calc((100vw - 1040px)/2)); color: white; background: linear-gradient(125deg,#1d4ed8,#6366f1); }
+    main { max-width: 1040px; margin: 28px auto; padding: 0 20px 50px; } h1 { margin: 0; font-size: 32px; } h2 { margin-top: 34px; } p, li { line-height: 1.8; color: #334155; }
+    .card { background: white; padding: 20px 24px; margin: 18px 0; border-radius: 16px; box-shadow: 0 8px 30px #0f172a12; }
+    img { width: 100%; height: auto; border-radius: 12px; } a { color: #1d4ed8; } .note { color: #64748b; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header><h1>月费账单管理器｜新手操作演示</h1><p style="color:#eef2ff;margin-bottom:0">管理固定月费、查看预计支出；不需要命令行，也不必联网。</p></header>
+  <main>
+    <section class="card"><h2>先看完整操作图</h2><img src="使用演示.svg" alt="月费账单管理器操作界面示意图：新增账单、停用或恢复、查看报表"></section>
+    <section class="card"><h2>1. 启动软件</h2><p>下载并解压便携 ZIP，双击 <strong>月费账单管理器.exe</strong>。ZIP 里的账单是虚构样例；开始个人记录前，建议先复制一份软件目录作为自己的数据目录。</p></section>
+    <section class="card"><h2>2. 添加固定月费</h2><ol><li>在窗口下方填写项目名称、收款方、金额和币种，可加备注。</li><li>外币汇率通常从「汇率设置」中的本地汇率表读取；需要时可以调整。</li><li>点击「新增」。账单会自动保存在软件目录的 <code>bills.json</code> 中。</li></ol></section>
+    <section class="card"><h2>3. 修改、停用或恢复</h2><p>先点击列表中的项目，再修改下方信息并点「保存修改」。暂时不再付费时使用「停用/恢复」；停用项目仍保留，可随时恢复，且不会计入当前月费总额。「彻底删除」无法恢复，请谨慎使用。</p></section>
+    <section class="card"><h2>4. 查看月度报表</h2><p>点击「查看本月汇总」，程序会更新并打开离线 HTML 报表。</p><p><a href="报表/2026-10.html">打开虚构样例报表</a> · <a href="bills.json">查看虚构样例账单</a></p></section>
+    <section class="card"><h2>提醒是可选的</h2><p>直接双击 EXE 即可使用。想要每月提醒时，再使用软件内的「提醒设置」或运行设置脚本；移动软件目录后重新运行设置脚本即可更新路径。</p></section>
+    <p class="note">图中的账单和服务商均为虚构样例。个人账单保存在本地，不会联网上传。</p>
+  </main>
+</body>
+</html>

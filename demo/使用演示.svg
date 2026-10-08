@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1400" viewBox="0 0 1440 1400" role="img" aria-labelledby="title desc">
+  <title id="title">月费账单管理器新手操作图</title>
+  <desc id="desc">展示启动软件、添加月费、停用或恢复、查看月度报表的操作步骤。界面和数据为示意。</desc>
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1d4ed8"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity=".10"/></filter>
+  </defs>
+  <rect width="1440" height="1400" fill="#f1f5f9"/>
+  <rect x="0" y="0" width="1440" height="215" fill="url(#hero)"/>
+  <text x="72" y="76" fill="#dbeafe" font-family="Microsoft YaHei UI, sans-serif" font-size="20" font-weight="700">便携软件 · 新手操作图</text>
+  <text x="72" y="137" fill="#ffffff" font-family="Microsoft YaHei UI, sans-serif" font-size="46" font-weight="700">月费账单管理器</text>
+  <text x="74" y="180" fill="#eef2ff" font-family="Microsoft YaHei UI, sans-serif" font-size="22">添加固定月费 → 自动保存 → 停用不再扣款的项目 → 查看月度汇总</text>
+  <rect x="1150" y="55" width="210" height="50" rx="25" fill="#ffffff" fill-opacity=".18"/>
+  <text x="1255" y="87" text-anchor="middle" fill="#ffffff" font-family="Microsoft YaHei UI, sans-serif" font-size="18" font-weight="700">离线运行 · 本地保存</text>
+
+  <g font-family="Microsoft YaHei UI, sans-serif">
+    <g filter="url(#shadow)"><rect x="72" y="245" width="306" height="116" rx="18" fill="#ffffff"/><rect x="400" y="245" width="306" height="116" rx="18" fill="#ffffff"/><rect x="728" y="245" width="306" height="116" rx="18" fill="#ffffff"/><rect x="1056" y="245" width="312" height="116" rx="18" fill="#ffffff"/></g>
+    <circle cx="112" cy="285" r="22" fill="#dbeafe"/><text x="112" y="293" text-anchor="middle" fill="#1d4ed8" font-size="22" font-weight="700">1</text>
+    <text x="148" y="283" fill="#0f172a" font-size="21" font-weight="700">启动</text><text x="148" y="319" fill="#475569" font-size="17">解压后双击月费账单管理器.exe</text>
+    <circle cx="440" cy="285" r="22" fill="#dbeafe"/><text x="440" y="293" text-anchor="middle" fill="#1d4ed8" font-size="22" font-weight="700">2</text>
+    <text x="476" y="283" fill="#0f172a" font-size="21" font-weight="700">新增</text><text x="476" y="319" fill="#475569" font-size="17">填写项目、金额和币种，再点新增</text>
+    <circle cx="768" cy="285" r="22" fill="#dbeafe"/><text x="768" y="293" text-anchor="middle" fill="#1d4ed8" font-size="22" font-weight="700">3</text>
+    <text x="804" y="283" fill="#0f172a" font-size="21" font-weight="700">管理</text><text x="804" y="319" fill="#475569" font-size="17">选中项目后修改、停用或恢复</text>
+    <circle cx="1096" cy="285" r="22" fill="#dbeafe"/><text x="1096" y="293" text-anchor="middle" fill="#1d4ed8" font-size="22" font-weight="700">4</text>
+    <text x="1132" y="283" fill="#0f172a" font-size="21" font-weight="700">查看</text><text x="1132" y="319" fill="#475569" font-size="17">点击查看本月汇总</text>
+  </g>
+
+  <g filter="url(#shadow)" font-family="Microsoft YaHei UI, sans-serif">
+    <rect x="72" y="390" width="1296" height="592" rx="18" fill="#ffffff"/>
+    <path d="M90 390h1260a18 18 0 0 1 18 18v54H72v-54a18 18 0 0 1 18-18z" fill="#e2e8f0"/>
+    <circle cx="103" cy="428" r="7" fill="#fb7185"/><circle cx="126" cy="428" r="7" fill="#fbbf24"/><circle cx="149" cy="428" r="7" fill="#34d399"/>
+    <text x="183" y="435" fill="#334155" font-size="18" font-weight="700">月费账单管理器　|　所有账单</text>
+    <rect x="1030" y="405" width="157" height="40" rx="8" fill="#ffffff" stroke="#cbd5e1"/><text x="1108" y="431" text-anchor="middle" fill="#334155" font-size="15">查看本月汇总</text>
+    <rect x="1200" y="405" width="153" height="40" rx="8" fill="#1d4ed8"/><text x="1276" y="431" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">提醒设置（可选）</text>
+
+    <rect x="92" y="468" width="1256" height="45" rx="6" fill="#f1f5f9"/>
+    <g fill="#475569" font-size="15" font-weight="700"><text x="112" y="496">状态</text><text x="235" y="496">项目名称</text><text x="455" y="496">收款方</text><text x="665" y="496">金额</text><text x="790" y="496">币种</text><text x="900" y="496">折合人民币</text><text x="1095" y="496">备注</text></g>
+    <g fill="#0f172a" font-size="15"><text x="112" y="548">使用中</text><text x="235" y="548">音乐会员</text><text x="455" y="548">示例服务商 A</text><text x="665" y="548">18.00</text><text x="790" y="548">CNY</text><text x="900" y="548">¥18.00</text><text x="1095" y="548">虚构演示数据</text></g><path d="M92 565h1256" stroke="#e2e8f0"/>
+    <g fill="#0f172a" font-size="15"><text x="112" y="597">使用中</text><text x="235" y="597">云存储服务</text><text x="455" y="597">示例服务商 B</text><text x="665" y="597">8.00</text><text x="790" y="597">CNY</text><text x="900" y="597">¥8.00</text><text x="1095" y="597">虚构演示数据</text></g><path d="M92 614h1256" stroke="#e2e8f0"/>
+    <rect x="92" y="627" width="1256" height="42" rx="6" fill="#eff6ff"/>
+    <g fill="#0f172a" font-size="15"><text x="112" y="654">使用中</text><text x="235" y="654">设计软件订阅</text><text x="455" y="654">示例服务商 C</text><text x="665" y="654">6.00</text><text x="790" y="654">USD</text><text x="900" y="654">¥40.56</text><text x="1095" y="654">虚构演示数据</text></g><path d="M92 680h1256" stroke="#e2e8f0"/>
+    <g fill="#94a3b8" font-size="15"><text x="112" y="714">已停用</text><text x="235" y="714">已停用示例服务</text><text x="455" y="714">示例服务商 D</text><text x="665" y="714">4.00</text><text x="790" y="714">EUR</text><text x="900" y="714">不计入月费</text><text x="1095" y="714">可随时恢复</text></g>
+
+    <rect x="92" y="735" width="1256" height="220" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="112" y="769" fill="#0f172a" font-size="19" font-weight="700">新增月费：填好后点击「新增」</text>
+    <g fill="#64748b" font-size="14"><text x="112" y="802">项目名称</text><text x="350" y="802">收款方</text><text x="588" y="802">金额</text><text x="738" y="802">币种</text><text x="888" y="802">备注</text><text x="112" y="878">汇率（通常自动计算）</text></g>
+    <g fill="#ffffff" stroke="#cbd5e1"><rect x="112" y="811" width="220" height="42" rx="6"/><rect x="350" y="811" width="220" height="42" rx="6"/><rect x="588" y="811" width="130" height="42" rx="6"/><rect x="738" y="811" width="130" height="42" rx="6"/><rect x="888" y="811" width="260" height="42" rx="6"/><rect x="112" y="888" width="220" height="38" rx="6"/></g>
+    <g fill="#334155" font-size="15"><text x="126" y="838">阅读会员</text><text x="364" y="838">示例服务商 E</text><text x="602" y="838">12.00</text><text x="752" y="838">CNY</text><text x="902" y="838">虚构演示数据</text><text x="126" y="913">1.000000</text></g>
+    <rect x="1175" y="811" width="145" height="42" rx="8" fill="#1d4ed8"/><text x="1247" y="838" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">新增月费</text>
+    <rect x="350" y="888" width="250" height="38" rx="8" fill="#dbeafe"/><text x="475" y="913" text-anchor="middle" fill="#1d4ed8" font-size="15" font-weight="700">当前月费合计：¥66.56</text>
+    <text x="625" y="913" fill="#64748b" font-size="14">停用项目不会计入月费合计</text>
+  </g>
+
+  <g font-family="Microsoft YaHei UI, sans-serif">
+    <rect x="72" y="1010" width="1296" height="270" rx="18" fill="#ffffff" filter="url(#shadow)"/>
+    <text x="105" y="1060" fill="#0f172a" font-size="25" font-weight="700">查看月度报表，提醒设置按需开启</text>
+    <text x="105" y="1097" fill="#475569" font-size="18">点击「查看本月汇总」生成并打开离线报表；不需要提醒时，无需设置任何任务。</text>
+    <rect x="105" y="1120" width="360" height="125" rx="14" fill="#eff6ff"/>
+    <text x="132" y="1157" fill="#1d4ed8" font-size="16" font-weight="700">虚构演示月费合计</text>
+    <text x="132" y="1211" fill="#0f172a" font-size="42" font-weight="700">¥66.56 / 月</text>
+    <rect x="490" y="1120" width="838" height="125" rx="14" fill="#f8fafc"/>
+    <g fill="#334155" font-size="17"><text x="520" y="1157">使用中：3 项</text><text x="735" y="1157">停用：1 项</text><text x="915" y="1157">数据文件：bills.json</text><text x="520" y="1200">报表：报表/2026-10.html</text><text x="880" y="1200">提醒：可选功能</text></g>
+    <text x="72" y="1332" fill="#64748b" font-family="Microsoft YaHei UI, sans-serif" font-size="16">以上为操作界面示意图，账单和服务商为虚构样例；个人数据仅保存在本机。</text>
+  </g>
+</svg>
