@@ -1,0 +1,97 @@
+{
+  "SchemaVersion": 2,
+  "Currencies": [
+    {
+      "Code": "CNY",
+      "Name": "人民币",
+      "Symbol": "¥",
+      "RateToCny": 1.0,
+      "UpdatedAt": "2026-06-17T00:00:00+08:00"
+    },
+    {
+      "Code": "USD",
+      "Name": "美元",
+      "Symbol": "$",
+      "RateToCny": 6.759469,
+      "UpdatedAt": "2026-06-17T00:00:00+08:00"
+    },
+    {
+      "Code": "EUR",
+      "Name": "欧元",
+      "Symbol": "€",
+      "RateToCny": 7.8349,
+      "UpdatedAt": "2026-06-17T00:00:00+08:00"
+    },
+    {
+      "Code": "GBP",
+      "Name": "英镑",
+      "Symbol": "£",
+      "RateToCny": 9.061564,
+      "UpdatedAt": "2026-06-17T00:00:00+08:00"
+    },
+    {
+      "Code": "JPY",
+      "Name": "日元",
+      "Symbol": "¥",
+      "RateToCny": 0.042164,
+      "UpdatedAt": "2026-06-17T00:00:00+08:00"
+    },
+    {
+      "Code": "HKD",
+      "Name": "港币",
+      "Symbol": "HK$",
+      "RateToCny": 0.862675,
+      "UpdatedAt": "2026-06-17T00:00:00+08:00"
+    }
+  ],
+  "Bills": [
+    {
+      "Id": "43080d0c-c885-4674-a36d-d6a805d69635",
+      "Name": "音乐会员",
+      "Payee": "示例服务商 A",
+      "Amount": 18.0,
+      "Currency": "CNY",
+      "ExchangeRateOverride": null,
+      "Notes": "虚构演示数据",
+      "Active": true,
+      "CreatedAt": "2026-10-08T20:51:15.5353553+08:00",
+      "UpdatedAt": "2026-10-08T20:51:15.5353553+08:00"
+    },
+    {
+      "Id": "3f81f71d-c40d-43a9-b60d-de16fdb44b2f",
+      "Name": "云存储服务",
+      "Payee": "示例服务商 B",
+      "Amount": 8.0,
+      "Currency": "CNY",
+      "ExchangeRateOverride": null,
+      "Notes": "虚构演示数据",
+      "Active": true,
+      "CreatedAt": "2026-10-08T20:51:15.5544490+08:00",
+      "UpdatedAt": "2026-10-08T20:51:15.5544490+08:00"
+    },
+    {
+      "Id": "bd943728-a5f6-4c79-b0cf-071a86a887c5",
+      "Name": "设计软件订阅",
+      "Payee": "示例服务商 C",
+      "Amount": 6.0,
+      "Currency": "USD",
+      "ExchangeRateOverride": null,
+      "Notes": "虚构演示数据",
+      "Active": true,
+      "CreatedAt": "2026-10-08T20:51:15.5555607+08:00",
+      "UpdatedAt": "2026-10-08T20:51:15.5555607+08:00"
+    },
+    {
+      "Id": "1d56d536-e1e0-4653-8d5d-56655f27864f",
+      "Name": "已停用示例服务",
+      "Payee": "示例服务商 D",
+      "Amount": 4.0,
+      "Currency": "EUR",
+      "ExchangeRateOverride": null,
+      "Notes": "虚构演示数据",
+      "Active": false,
+      "CreatedAt": "2026-10-08T20:51:15.5565430+08:00",
+      "UpdatedAt": "2026-10-08T20:51:15.5565430+08:00"
+    }
+  ]
+}
